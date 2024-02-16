@@ -12,7 +12,7 @@ datasource db {
 
 model User {
   id Int @id @default(autoincrement())
-  creatdAt DateTime @default(now())
+  createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   
   email String
@@ -24,7 +24,7 @@ model User {
 
 model Bookmark {
   id Int @id @default(autoincrement())
-  creatdAt DateTime @default(now())
+  createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   
   title String
